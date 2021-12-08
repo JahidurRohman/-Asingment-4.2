@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    width: 100%;
+    background: linear-gradient(
+    46deg, #FDD0CF, #FDD0CF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+   
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+   
+}
+.block-contents {
+    background: #fff;
+    display: flex;
+    /* max-width: 850px; */
+}
+.image-block {
+    flex-basis: 50%;
+}
+form {
+    width: 50%;
+    
+
+}
+ 
+ form h1 {
+    font-size: 30px;
+    color: #FF9A9C;
+    font-family: 'Courgette', cursive;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+   
+}
+
+
+ form {
+    padding: 90px 40px 0px 18px;
+}
+.name-box, .email-box, .pass-box{
+    padding: 12px 100px 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #F7F7F7;
+    font-family: 'Montserrat', sans-serif;
+}
+.name-box:focus, .email-box:focus, .pass-box:focus{
+    outline: none;
+    padding: 12px 100px 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #F7F7F7;
+    font-family: 'Montserrat', sans-serif;
+}
+::placeholder{
+     
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+.first-box, .second-box, .third-box{
+    margin: 0 24px 24px 24px;
+}
+  .agreement{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 0 0px 60px;
+    padding: 0 0 40px 0;
+}
+a {
+    text-decoration: none;
+}
+.agreement a{
+    color: #FF9A9C;
+}
+ 
+.singup button a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+.singup button{
+    padding: 10px 14px;
+    margin: 0 0 0 38px;
+    border-radius: 30px;
+    background: #FF9A9C;
+    border: none;
+}
+}
+
+.singup{
+    padding: 45px 0 0 0;
+}
+
+.singup span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    padding: 0px 0 0 15px;
+}
+.singup span a{
+    color: #FF9A9C;
+}
